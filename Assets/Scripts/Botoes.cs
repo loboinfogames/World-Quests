@@ -19,4 +19,11 @@ public class Botoes : MonoBehaviour
 
         SceneManager.LoadScene("GAMEOVER");
     }
+
+    public void SAIRAPK()
+    {
+        
+            Application.Quit();
+        
+    }
 }
